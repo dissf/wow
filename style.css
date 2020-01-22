@@ -1,0 +1,496 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&subset=cyrillic");
+html {
+  font-family: 'OpenSans', sans-serif;
+  font-size: 14px;
+}
+.zvonok{
+    background: #32CD32; /* Цвет фона под заголовком */
+    color: white; /* Цвет текста */
+    padding: 15px; /* Поля вокруг текста */
+}
+.img
+{
+height:290px;
+width:290px;
+}
+.headerstyle
+{
+background-color:#f5f6f8;
+}
+.navstyle
+{
+background-color:#2F4F4F;
+}
+.mainstyle
+{
+background-color: #D3D3D3;
+}
+ul
+{
+  list-style: none;
+}
+
+    ul.hr {
+        margin: 0;
+        margin-right:180px;
+        padding: 10px;
+       }
+       ul.hr li {
+        display: inline;
+        margin-right: 11px;
+       }
+/* cvet ssilki*/
+       a {
+       color:#FF0000;
+       text-decoration:none
+       }
+
+       a:active {
+       color:#FF0000;
+       text-decoration:none
+       }
+
+       a:visited {
+       color:black;
+       text-decoration:none
+       }
+
+       a:hover {
+       color:#339900;
+       text-decoration: underline
+       }
+/* cvet ssilki*/
+
+
+
+
+/*video */
+.fullscreen-bg {
+    overflow: hidden;
+    z-index: -100;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding-top:45%;
+    margin-top:0%;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.overlay {
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+}
+
+.overlay h1 {
+    text-align:center;
+    color:#fff;
+    font-size: 70px;
+    margin-top:17%;
+}
+@media screen and (max-width: 600px) {
+    .overlay h1 {
+        text-align:center;
+        color:#fff;
+        font-size: 20px;
+        margin-top:7%;
+    }
+  }
+}
+.overlay div{
+  text-align:center;
+  color:#fff;
+  font-size: 20px;
+}
+/**/
+.aya{float:right;}
+.col-lg-4{float:left;}
+.col-lg-10{float:left;}
+.col-lg-3{float:left;}
+.col-lg-2{float:right;margin-top:40px;}
+.ir{position:relative;width:100%;}
+.q{
+  color:#FFFAFA;
+}
+.z{
+  color:#FFFAFA;
+}
+.q a {
+    color:#FFFAFA;
+	position	: absolute;
+	top		: 170px;
+	left		: 19px;
+	width		: 100%;
+}
+.e  i{
+  position:absolute;
+  top:230px;
+  left:38px;
+  width:100%;
+}
+.l i{
+  position:absolute;
+  top:230px;
+  left:180px;
+  width:100%;
+}
+.d i{
+  position:absolute;
+  top:230px;
+  left:220px;
+  width:100%;
+}
+.t i{
+  position:absolute;
+  top:225px;
+  left:90px;
+  width:100%;
+}
+.container{
+  overflow:hidden
+}
+.leftimg {
+ float:left; /* Выравнивание по левому краю */
+ margin: 20px 20px 30px 0; /* Отступы вокруг картинки */
+}
+.z a {
+    color:#FFFAFA;
+	position	: absolute;
+	top		: 100px;
+	left		: 19px;
+	width		: 100%;
+}
+.jora{
+  font-size: 35px;
+}
+
+
+.ss{background-color:#ffffff;box-shadow:0 10px 50px rgba(0,0,0,0.15);height:240px;position:relative;overflow:hidden;padding:150px 0 0 40px;}
+#ya{margin-top:-55px;}
+.item-icon{position:absolute;top:25%;left:40px;}
+.item-img{position:absolute;top:-10%;right:0;border-radius:0 0 0 100%;overflow:hidden;}
+.item-name a{color:#000000;text-decoration:none;border-bottom:1px solid #24aa17;font-weight:900;font-size:22px;}
+/**/
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .slider {
+        width: 83%;
+        margin: 20px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 50%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+
+    .slick-active {
+      opacity: 1;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
+    .sl
+    {
+      display:flex;
+      flex-wrap:wrap;
+      background-color:gray;
+    }
+    .card{
+      width: 280px;
+      height:300px;
+    }
+.ya{
+  font-size: 14px;
+}
+@media screen and (max-width: 600px) {
+  .dok {
+    visibility: hidden;
+    display: none;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .dok1 {
+    visibility: hidden;
+    display: none;
+  }
+}
+span{
+  font-size:20px;
+}
+.des{
+  font-size:13px;
+}
+.green{
+  color: green;
+}
+.blue{
+  color: blue;
+}
+.white{
+  color:white;
+}
+.menu_container{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.mobile_menu{
+  font-size: 20px;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 26px;
+    padding: 12px 25px;
+    color: #ffffff;
+    background: #4dadf7;
+    border-radius: 2px;
+    border: none;
+    width: auto;
+    margin: 0;
+    text-decoration: none;
+    -webkit-transition: all 400ms;
+    -moz-transition: all 400ms;
+    transition: all 400ms;
+}
+.mobile_menu:hover{
+  background: #228ae6;
+    cursor: pointer;
+}
+///
+
+
+#top-menu ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+#top-menu > ul > li {
+  float: left;
+}
+
+#top-menu > ul > li > ul {
+  top: 100%;
+  left: 0;
+}
+
+#top-menu li {
+  position: relative;
+}
+
+#top-menu a {
+  display: block;
+  white-space: nowrap;
+}
+
+#top-menu ul li li ul {
+  top: 0;
+  left: 100%;
+}
+
+#top-menu ul ul {
+  visibility: hidden;
+  position: absolute;
+}
+
+#top-menu li:hover > ul {
+  visibility: visible;
+}
+#top-menu > ul > li > ul,
+#top-menu ul li li ul {
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  -o-transition: all 300ms;
+  transition: all 300ms;
+}
+
+#top-menu > ul > li > ul {
+  top: 400%;
+  opacity: 0;
+}
+
+#top-menu > ul > li:hover > ul {
+  top: 100%;
+  opacity: 1;
+}
+
+#top-menu ul li ul li ul {
+  left: 400%;
+  opacity: 0;
+}
+
+#top-menu ul li ul li:hover ul {
+  left: 100%;
+  opacity: 1;
+}
+.dust{
+  position: absolute;
+z-index: 10000;
+}
+
+
+#top-menu,
+#top-menu > ul {
+  background-color: #9DA4AD;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#top-menu:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+#top-menu a {
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 5px 10px 5px 10px;
+  line-height: 1.2;
+}
+
+#top-menu > ul > li > a {
+  padding: 5px;
+  margin: 2px 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#top-menu > ul > li > ul + a {
+  padding-bottom: 7px;
+  margin-bottom: 0;
+}
+
+#top-menu > ul > li > ul + a:after {
+  content: " \25bc";
+}
+
+#top-menu > ul > li:hover > a {
+  background-color: #4672B3;
+}
+
+#top-menu > ul > li:hover > ul + a {
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+}
+
+#top-menu > ul > li > ul {
+  min-width: 100%;
+  background-color: rgb(70, 114, 179);
+  background-color: rgba(70, 114, 179, 0.8);
+}
+
+#top-menu > ul > li li > ul + a:after {
+  content: " \25b6";
+}
+
+#top-menu > ul > li > ul > li:last-child,
+#top-menu > ul > li > ul {
+  -webkit-border-radius: 0 0 5px 5px;
+  -moz-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+}
+
+#top-menu ul li li:hover,
+#top-menu ul li li ul,
+#top-menu ul li li ul li:hover {
+  background-color: rgb(124, 147, 178);
+  background-color: rgba(124, 147, 178, 0.8);
+}
+.modal-mask {
+  position: fixed;
+  z-index: 9998;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+  display: table;
+  transition: opacity .3s ease;
+}
+
+.modal-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.modal-container {
+  width: 300px;
+  margin: 0px auto;
+  padding: 20px 30px;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
+  transition: all .3s ease;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.modal-header h3 {
+  margin-top: 0;
+  color: #42b983;
+}
+
+.modal-body {
+  margin: 20px 0;
+}
+
+.modal-default-button {
+  float: right;
+}
+
+/*
+ * The following styles are auto-applied to elements with
+ * transition="modal" when their visibility is toggled
+ * by Vue.js.
+ *
+ * You can easily play with the modal transition by editing
+ * these styles.
+ */
+
+.modal-enter {
+  opacity: 0;
+}
+
+.modal-leave-active {
+  opacity: 0;
+}
+
+.modal-enter .modal-container,
+.modal-leave-active .modal-container {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
